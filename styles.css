@@ -29,6 +29,7 @@ background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, F
     font-size: 4rem;
     margin: 0 auto;
     margin-top: 2rem;
+    text-align: center;
     font-family: 'Honk', system-ui;
 font-family: 'Inter', sans-serif;
 font-family: 'Pixelify Sans', sans-serif;
