@@ -15,7 +15,7 @@ background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, F
     margin: 0 auto;
     /* max-width: 700px; */
     height: 100vh;
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,16 +64,8 @@ font-family: 'Pixelify Sans', sans-serif;
     align-items: center; */
 }
 
-/* @media screen and (max-width:850px){
-    .score{
-        padding-left: 8rem;
+@media screen and (max-width:450px) {
+    #grid{
+        gap:0.1rem;
     }
-    .heading{
-        padding-left: 8rem;
-    }
-} */
-
-/* #grid img{
-    justify-items: stretch;
-    align-items: center;
-} */
+}
