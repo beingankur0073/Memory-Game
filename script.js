@@ -85,8 +85,9 @@ const optionTwoId=cardsChosenIds[1]
     console.log(cards)
     if(optionTwoId==optionOneId){
         alert('You clicked the same image!')
+        cards[optionOneId].setAttribute('src','images/blank.png')
     }
-    if(cardsChosen[0]==cardsChosen[1]){
+   else if(cardsChosen[0]==cardsChosen[1]){
         alert('You found a match!')
         cards[optionOneId].setAttribute('src','images/white.png')
         cards[optionTwoId].setAttribute('src','images/white.png')
