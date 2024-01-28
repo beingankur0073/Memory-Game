@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@300&family=Pixelify+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    margin: 0 auto;
+    /* max-width: 700px; */
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.heading{
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-family: 'Honk', system-ui;
+font-family: 'Inter', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: 'Honk', system-ui;
+font-family: 'Inter', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+    /* padding: 2rem; */
+    /* background-color: blue; */
+}
+#grid{
+    /* margin-top: 20rem; */
+   margin: 0 auto;
+    /* width: 30%; */
+    /* height: 40rem; */
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    /* justify-content: space-around; */
+    overflow: hidden;
+    justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+    /* //flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* @media screen and (max-width:850px){
+    .score{
+        padding-left: 8rem;
+    }
+    .heading{
+        padding-left: 8rem;
+    }
+} */
+
+/* #grid img{
+    justify-items: stretch;
+    align-items: center;
+} */
